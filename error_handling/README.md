@@ -7,5 +7,7 @@ The Default Behavior of Ansible Error Handliing.
    To avoid this, we use " any_errors_fatal: true " 
 
 To ignore error for non-critical task: " ignore_errors: yes "
+![image](https://github.com/user-attachments/assets/75dcbd7f-d06b-4104-8dcc-68a3f3004991)
+
 Failed the task based on condition: 
   failed_when : " 'Error' in command_output.stdout "
