@@ -14,20 +14,15 @@ Default value.
   I am from {{ country | default("India") }} ==> To convert in lower case
 
 Filters: LIST and SET
+ {{ [1,2,3] | min }} ==> 1
+ {{ [1,2,3] | max }}  ==> 3
+ {{ [1,2,3,2] | unique }}  ==> 1,2,3,4
+ {{ [1,2,3,4] | union( [4,5]) }}  ==> 1,2,3,4,5
+ {{ [1,2,3,4] | intersect( [4,5]) }} ==> 4
+ {{ 100 | random }}  ==> Random Number
+ {{ ["I", "am", "from", "India"] | join(" ") }} ==> I am from India
 
-  {{ [1,2,3] | min }} ==> 1
-  {{ [1,2,3] | max }}  ==> 3
-
-  {{ [1,2,3,2] | unique }}  ==> 1,2,3,4
-
-  {{ [1,2,3,4] | union( [4,5]) }}  ==> 1,2,3,4,5
-  {{ [1,2,3,4] | intersect( [4,5]) }} ==> 4
-
-  {{ 100 | random }}  ==> Random Number
-  
-  {{ ["I", "am", "from", "India"] | join(" ") }} ==> I am from India
-
-fiter: FILE
+Fiter: FILE
 {{ "/etc/hosts" | basename }} ==> hosts
   
 
