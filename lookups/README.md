@@ -16,6 +16,11 @@ CSV File: credentials.csv
     {{ lookup('csvfile', 'target1 file=/tmp/credentials.csv delimeter=,') }}  ==> Passw0rd
     {{ lookup('csvfile', 'target2 file=/tmp/credentials.csv delimeter=,') }}  ==> Passw@rd
 
+There are few other lookups plugin.
+  1. INI
+  2. DNS
+  3. MongoDB
+
 
 
 
