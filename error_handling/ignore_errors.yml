@@ -57,3 +57,7 @@
         subject: Server Deployed!
         body: Web Server Deployed Successfully
       ignore_errors: yes  # This will ignore failed tasks and continue with the next task
+    
+    - command: cat /var/log/server.log
+      register: command_output
+      failed_when: " 'ERROR' in command_output.stdout "
