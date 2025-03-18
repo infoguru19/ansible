@@ -14,3 +14,6 @@ To ignore error for non-critical task: " ignore_errors: yes "
 
 Failed the task based on condition: 
   failed_when : " 'Error' in command_output.stdout "
+
+  ![image](https://github.com/user-attachments/assets/b5a1cc56-187b-40a4-80c0-ba1e47010df2)
+
