@@ -1,5 +1,5 @@
 ---
-  name: Print average number
+- name: Print average number
   hosts: localhost
   vars:
     numbers:
@@ -10,4 +10,4 @@
       - 5
   tasks:
     - debug:
-        msg: "{{ numbers | avg }}" 
+        msg: "{{ numbers | average }}" 
