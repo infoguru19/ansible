@@ -17,6 +17,8 @@ Default Ouput is called Skippy.
 We can change callback plugin to Json istead of text format.
   export ANSIBLE_STDOUT_CALLBACK=json; ansible-playbook playbook.yml
 
+![image](https://github.com/user-attachments/assets/7c7f297b-2f37-4cd3-ae23-651ab76b0022)
+
 
 
 
