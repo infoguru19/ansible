@@ -1,5 +1,5 @@
 Vault
-=================
+====================
 Ref: https://docs.ansible.com/ansible/2.8/user_guide/vault.html
 1. Ansible vault is use to store data in encrypted format.
 2. There are multiple way to use ansible vault.
